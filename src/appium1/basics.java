@@ -33,6 +33,11 @@ public class basics extends start {
 		driver.findElementByClassName("android.widget.EditText").sendKeys("Gocanvas WiFi");
 		driver.findElementsByClassName("android.widget.Button").get(1).click();
 		
+		driver.findElementByAndroidUIAutomator(using);
+		
+		
+		
+		
 
 	}
 
